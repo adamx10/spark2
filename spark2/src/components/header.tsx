@@ -2,16 +2,16 @@ export const Header = () =>
  {
 
     return <>
-    <div className="flex justify-between  w-11/12 mx-auto  ">
-
-        
-        <h1 className="flex justify-start w-3xl mx-auto">spark</h1>
-
-        <ul className="flex gap-4  justify-end items-center mx-auto">
-            <li>days</li>
-            <li>history</li>
-            
-        </ul>
+ <div className="min-h-screen bg-gray-400 p-4 font-sans">
+      
+      {/* Header */}
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-3xl font-semibold mx-50">spark</h1>
+        <div className="flex gap-4 text-2xl mx-20">
+          <span>history</span>
+          <span>days</span>
+        </div>
+      </div>
     </div>
     </>
  }
