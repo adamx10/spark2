@@ -1,5 +1,4 @@
-export const Hero = () => 
- {
+export const Hero = () =>  {
     return (
         <>
      <div className="text-center mb-6">
