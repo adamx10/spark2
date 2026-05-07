@@ -4,7 +4,7 @@ export const Header = () =>
     return <>
  
       
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between  items-center mb-6">
         <h1 className="text-3xl font-semibold mx-50">spark</h1>
         <div className="flex gap-4 text-2xl mx-20">
           <span>history</span>

@@ -1,6 +1,6 @@
 function CardText() {
   return (
-    <div  className="flex  justify-center">
+    <div  className="flex  justify-center    ,,                    ">
     <div className="max-w-sm rounded-3xl bg-white p-6 shadow-lg">
 
      
